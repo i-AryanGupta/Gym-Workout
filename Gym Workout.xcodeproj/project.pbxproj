@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2BA220402CBCFEF8007D97B9 /* Gym_WorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2203F2CBCFEF8007D97B9 /* Gym_WorkoutApp.swift */; };
-		2BA220422CBCFEF8007D97B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA220412CBCFEF8007D97B9 /* ContentView.swift */; };
 		2BA220442CBCFF00007D97B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220432CBCFF00007D97B9 /* Assets.xcassets */; };
 		2BA220472CBCFF00007D97B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220462CBCFF00007D97B9 /* Preview Assets.xcassets */; };
+		2BA220562CBD06C8007D97B9 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA220552CBD06C8007D97B9 /* OnBoardingScreen.swift */; };
+		2BA220582CBD077E007D97B9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220572CBD077E007D97B9 /* Launch Screen.storyboard */; };
+		2BA2205E2CBD1CD9007D97B9 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220592CBD1CD8007D97B9 /* Poppins-Light.ttf */; };
+		2BA2205F2CBD1CD9007D97B9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205A2CBD1CD8007D97B9 /* Poppins-Regular.ttf */; };
+		2BA220602CBD1CD9007D97B9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205B2CBD1CD8007D97B9 /* Poppins-Bold.ttf */; };
+		2BA220612CBD1CD9007D97B9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205C2CBD1CD9007D97B9 /* Poppins-Medium.ttf */; };
+		2BA220622CBD1CD9007D97B9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205D2CBD1CD9007D97B9 /* Poppins-SemiBold.ttf */; };
+		2BA220652CBD2618007D97B9 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA220642CBD2618007D97B9 /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BA2203C2CBCFEF8007D97B9 /* Gym Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2203F2CBCFEF8007D97B9 /* Gym_WorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_WorkoutApp.swift; sourceTree = "<group>"; };
-		2BA220412CBCFEF8007D97B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BA220432CBCFF00007D97B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BA220462CBCFF00007D97B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BA220552CBD06C8007D97B9 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		2BA220572CBD077E007D97B9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2BA220592CBD1CD8007D97B9 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		2BA2205A2CBD1CD8007D97B9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2BA2205B2CBD1CD8007D97B9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2BA2205C2CBD1CD9007D97B9 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		2BA2205D2CBD1CD9007D97B9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		2BA220632CBD24AE007D97B9 /* Gym-Workout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gym-Workout-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2BA220642CBD2618007D97B9 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +66,17 @@
 		2BA2203E2CBCFEF8007D97B9 /* Gym Workout */ = {
 			isa = PBXGroup;
 			children = (
+				2BA220632CBD24AE007D97B9 /* Gym-Workout-Info.plist */,
+				2BA220522CBD0667007D97B9 /* Screen */,
+				2BA220512CBD0641007D97B9 /* Model */,
+				2BA220502CBD0633007D97B9 /* ViewModel */,
+				2BA2204F2CBD0619007D97B9 /* UICommon */,
+				2BA2204E2CBD0610007D97B9 /* Common */,
+				2BA2204D2CBD05F9007D97B9 /* Fonts */,
 				2BA2203F2CBCFEF8007D97B9 /* Gym_WorkoutApp.swift */,
-				2BA220412CBCFEF8007D97B9 /* ContentView.swift */,
 				2BA220432CBCFF00007D97B9 /* Assets.xcassets */,
 				2BA220452CBCFF00007D97B9 /* Preview Content */,
+				2BA220572CBD077E007D97B9 /* Launch Screen.storyboard */,
 			);
 			path = "Gym Workout";
 			sourceTree = "<group>";
@@ -65,6 +87,71 @@
 				2BA220462CBCFF00007D97B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BA2204D2CBD05F9007D97B9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2205B2CBD1CD8007D97B9 /* Poppins-Bold.ttf */,
+				2BA220592CBD1CD8007D97B9 /* Poppins-Light.ttf */,
+				2BA2205C2CBD1CD9007D97B9 /* Poppins-Medium.ttf */,
+				2BA2205A2CBD1CD8007D97B9 /* Poppins-Regular.ttf */,
+				2BA2205D2CBD1CD9007D97B9 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2BA2204E2CBD0610007D97B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2BA2204F2CBD0619007D97B9 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				2BA220642CBD2618007D97B9 /* UIExtensions.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		2BA220502CBD0633007D97B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BA220512CBD0641007D97B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BA220522CBD0667007D97B9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2BA220542CBD0676007D97B9 /* Home */,
+				2BA220532CBD0670007D97B9 /* Login */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		2BA220532CBD0670007D97B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2BA220552CBD06C8007D97B9 /* OnBoardingScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2BA220542CBD0676007D97B9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA220582CBD077E007D97B9 /* Launch Screen.storyboard in Resources */,
+				2BA220612CBD1CD9007D97B9 /* Poppins-Medium.ttf in Resources */,
+				2BA220602CBD1CD9007D97B9 /* Poppins-Bold.ttf in Resources */,
 				2BA220472CBCFF00007D97B9 /* Preview Assets.xcassets in Resources */,
 				2BA220442CBCFF00007D97B9 /* Assets.xcassets in Resources */,
+				2BA220622CBD1CD9007D97B9 /* Poppins-SemiBold.ttf in Resources */,
+				2BA2205E2CBD1CD9007D97B9 /* Poppins-Light.ttf in Resources */,
+				2BA2205F2CBD1CD9007D97B9 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA220422CBCFEF8007D97B9 /* ContentView.swift in Sources */,
+				2BA220652CBD2618007D97B9 /* UIExtensions.swift in Sources */,
+				2BA220562CBD06C8007D97B9 /* OnBoardingScreen.swift in Sources */,
 				2BA220402CBCFEF8007D97B9 /* Gym_WorkoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +364,13 @@
 				DEVELOPMENT_TEAM = 5GLDB8325L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gym-Workout-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +395,13 @@
 				DEVELOPMENT_TEAM = 5GLDB8325L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gym-Workout-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
