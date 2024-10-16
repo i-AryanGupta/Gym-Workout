@@ -11,7 +11,10 @@ import SwiftUI
 struct Gym_WorkoutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                 OnBoardingScreen()
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
