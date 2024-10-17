@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B60AB6A2CC0D89A00970FE4 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AB692CC0D89A00970FE4 /* SettingScreen.swift */; };
+		2B60AB6C2CC0D8B000970FE4 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AB6B2CC0D8B000970FE4 /* SettingRow.swift */; };
+		2B60AB6E2CC0D8C100970FE4 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AB6D2CC0D8C100970FE4 /* ProfileScreen.swift */; };
 		2BA220402CBCFEF8007D97B9 /* Gym_WorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2203F2CBCFEF8007D97B9 /* Gym_WorkoutApp.swift */; };
 		2BA220442CBCFF00007D97B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220432CBCFF00007D97B9 /* Assets.xcassets */; };
 		2BA220472CBCFF00007D97B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA220462CBCFF00007D97B9 /* Preview Assets.xcassets */; };
@@ -18,9 +21,17 @@
 		2BA220612CBD1CD9007D97B9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205C2CBD1CD9007D97B9 /* Poppins-Medium.ttf */; };
 		2BA220622CBD1CD9007D97B9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2205D2CBD1CD9007D97B9 /* Poppins-SemiBold.ttf */; };
 		2BA220652CBD2618007D97B9 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA220642CBD2618007D97B9 /* UIExtensions.swift */; };
+		2BA302132CBF800100475F03 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA302122CBF800100475F03 /* SignUpScreen.swift */; };
+		2BA302152CBF88DB00475F03 /* MobileNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA302142CBF88DB00475F03 /* MobileNumberScreen.swift */; };
+		2BED6D472CBF93E6005A589D /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED6D462CBF93E6005A589D /* OTPScreen.swift */; };
+		2BED6D492CBF9D9D005A589D /* NameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED6D482CBF9D9D005A589D /* NameScreen.swift */; };
+		2BED6D4B2CBFA100005A589D /* GoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED6D4A2CBFA100005A589D /* GoalScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B60AB692CC0D89A00970FE4 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		2B60AB6B2CC0D8B000970FE4 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		2B60AB6D2CC0D8C100970FE4 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		2BA2203C2CBCFEF8007D97B9 /* Gym Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2203F2CBCFEF8007D97B9 /* Gym_WorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_WorkoutApp.swift; sourceTree = "<group>"; };
 		2BA220432CBCFF00007D97B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +45,11 @@
 		2BA2205D2CBD1CD9007D97B9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		2BA220632CBD24AE007D97B9 /* Gym-Workout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gym-Workout-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2BA220642CBD2618007D97B9 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		2BA302122CBF800100475F03 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		2BA302142CBF88DB00475F03 /* MobileNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberScreen.swift; sourceTree = "<group>"; };
+		2BED6D462CBF93E6005A589D /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
+		2BED6D482CBF9D9D005A589D /* NameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScreen.swift; sourceTree = "<group>"; };
+		2BED6D4A2CBFA100005A589D /* GoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B60AB662CC0CFBC00970FE4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AB692CC0D89A00970FE4 /* SettingScreen.swift */,
+				2B60AB6B2CC0D8B000970FE4 /* SettingRow.swift */,
+				2B60AB6D2CC0D8C100970FE4 /* ProfileScreen.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		2BA220332CBCFEF8007D97B9 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +169,11 @@
 			isa = PBXGroup;
 			children = (
 				2BA220552CBD06C8007D97B9 /* OnBoardingScreen.swift */,
+				2BA302122CBF800100475F03 /* SignUpScreen.swift */,
+				2BA302142CBF88DB00475F03 /* MobileNumberScreen.swift */,
+				2BED6D462CBF93E6005A589D /* OTPScreen.swift */,
+				2BED6D482CBF9D9D005A589D /* NameScreen.swift */,
+				2BED6D4A2CBFA100005A589D /* GoalScreen.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -150,6 +181,7 @@
 		2BA220542CBD0676007D97B9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2B60AB662CC0CFBC00970FE4 /* Setting */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -230,9 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B60AB6A2CC0D89A00970FE4 /* SettingScreen.swift in Sources */,
+				2BED6D492CBF9D9D005A589D /* NameScreen.swift in Sources */,
 				2BA220652CBD2618007D97B9 /* UIExtensions.swift in Sources */,
 				2BA220562CBD06C8007D97B9 /* OnBoardingScreen.swift in Sources */,
+				2B60AB6C2CC0D8B000970FE4 /* SettingRow.swift in Sources */,
+				2BA302152CBF88DB00475F03 /* MobileNumberScreen.swift in Sources */,
+				2B60AB6E2CC0D8C100970FE4 /* ProfileScreen.swift in Sources */,
 				2BA220402CBCFEF8007D97B9 /* Gym_WorkoutApp.swift in Sources */,
+				2BA302132CBF800100475F03 /* SignUpScreen.swift in Sources */,
+				2BED6D4B2CBFA100005A589D /* GoalScreen.swift in Sources */,
+				2BED6D472CBF93E6005A589D /* OTPScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
