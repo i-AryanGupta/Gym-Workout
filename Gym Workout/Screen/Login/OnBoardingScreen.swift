@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OnBoardingScreen: View {
     
+    @State var showSignUp = false
     @State private var selectPage = 0
     @State var pageArr = [
         [
@@ -77,7 +78,7 @@ struct OnBoardingScreen: View {
                 
                 HStack{
                     Spacer()
-                    
+                    // skip button
                     Button(action: {
                         
                     },
@@ -92,9 +93,9 @@ struct OnBoardingScreen: View {
                     .overlay(RoundedRectangle(cornerRadius: 25.0).stroke(Color.board, lineWidth: 1))
                 }
                 Spacer()
-                
+                // next button
                 Button(action: {
-                    
+                    showSignUp = true
                 },
                        label: { Text("Next")
                         .font(.customFont(.semBold, fontSize: 14))
@@ -112,12 +113,15 @@ struct OnBoardingScreen: View {
             .bottomWithSafe
             
         }
+        .bgNavLink(content: SignUpScreen(), isAction: $showSignUp)
         .navHide
     }
 }
 
 struct OnBoardingScreen_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingScreen()
+        NavigationView{
+            OnBoardingScreen()
+        }
     }
 }
